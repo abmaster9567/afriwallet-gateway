@@ -178,7 +178,7 @@ header button:hover {
     font-style: normal
 }
 
-@media (max-width: 500px) {
+@media (max-width: 768px) {
     .hero-details h1 {
         margin: 10px;
         padding: 10px;
@@ -407,7 +407,7 @@ header button:hover {
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 768px) {
 
 
     .product {
@@ -643,7 +643,7 @@ header button:hover {
 
 }
 
-@media (max-width: 500px) {
+@media (max-width: 768px) {
     .review-container {
         flex-direction: column;
 
