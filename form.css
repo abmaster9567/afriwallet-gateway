@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --primary-color: #120917;
+    --nav-bar-bg: #0A1F44;
+    --accent-color: #ffd700;
+    ;
+    --section-bg: #122B58;
+    --buttom-hover: #B38E2F;
+    --service-card-bg: #FAF6ED;
+    --cta-bg: #D4AF37;
+    --cta-hover: #B38E2F;
+    --text-color: #2C2C2C;
+    --btn-color: #9700FF;
+    --hero-border: #cb83fa;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: var(--service-card-bg);
+}
+.login-container {
+    background-color: var(--section-bg);
+    color: var(--service-card-bg);
+    padding: 2rem;
+    border-radius: 6px;
+    width: 320px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+h3 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 1;
+}
+.form-gp {
+    align-items: center;
+    margin-bottom: 1.2rem;
+    width: 91%;
+    justify-content: center;
+    position: relative;
+}
+input {
+    width: 100%;
+    padding:  15px 15px 10px 35px;
+    background-color: var(--service-card-bg);
+    border: 1px solid var(--hero-border);
+    color: var(--text-color);
+    font-size: 0.9rem;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.form-gp .fa-solid {
+    position: absolute;
+    top: 1rem;
+    left: 10px;
+    color: var(--cta-bg);
+    font-size: 0.9rem;
+    
+}
+.form-gp .icon-right .fa-solid {
+    position: absolute;
+    left: 13rem;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+input:focus {
+    outline: 1px solid var(--primary-color);
+}
+button {
+    width: 92%;
+    padding: 0.8rem;
+    background-color: var(--cta-bg);
+    color: #fff;
+    border: none;
+    letter-spacing: 1;
+    cursor: pointer;
+    border-radius: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    transition: background 0.3s ease;
+
+}
+ button:hover {
+    background-color: var(--cta-hover);
+    color: white;
+ }
+ .links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    font-size: 0.8rem;
+ }
+ a {
+    color: #fff;
+    text-decoration: none;
+ }
+ a:hover {
+    color: white;
+ }
+ input::placeholder {
+    color: #999;
+     font-family: "Poppins", sans-serif;
+     font-weight: 400;
+     
+ }

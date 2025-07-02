@@ -1,0 +1,34 @@
+:root {
+    --primary-color: #120917;
+    --nav-bar-bg: #0A1F44;
+    --accent-color: #ffd700;;
+    --section-bg: #122B58;
+    --buttom-hover: #B38E2F;
+    --service-card-bg: #FAF6ED;
+    --cta-bg: #D4AF37;
+    --cta-hover: #B38E2F;
+    --text-color: #2C2C2C;
+    --btn-color: #9700FF;
+    --hero-border: #cb83fa;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+body {
+    font-family: "Poppins", sans-serif;
+     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+   
+}
+.container {
+    background-color: white;
+    padding: 20px;
+}
